@@ -98,6 +98,10 @@ ul, ol, menu{
     width: 100%;
 }
 
+.info_blaze {
+    padding: 20px 10px;
+ }
+
 @media (min-width:768px){
     .plane_blaze{
         display: flex;
