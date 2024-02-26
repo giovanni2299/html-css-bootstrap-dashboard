@@ -48,3 +48,29 @@ ul, ol, menu{
     transform: translateY(150%);
     padding: 0 5px;
 }
+
+/* @media (min-width:768px){
+    .ms_input_text{
+        font-size: 20px;
+    }
+} */
+/* END HEADER */
+
+
+/* MIAN */
+.page_main{
+    height: 100%;
+}
+
+.row_heigt{
+    height: 100%;
+}
+
+.bg-051E34{
+    background-color: #051E34;
+}
+
+.admin{
+    margin-top: auto;
+}
+/* END MAIN */
