@@ -12,3 +12,39 @@ ul, ol, menu{
     list-style: none;
 }
 
+/* LAYOUT */
+#app{
+    height: 100vh;
+}
+/* END LAYOUT */
+/* HEADER */
+.page_header{
+    background-color: #F8F9FA;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+}
+
+.bg-FFFFFF{
+    background-color: #FFFFFF;
+}
+
+.ul_page_header{
+    display: flex;
+    
+}
+
+.ms_input_text{
+    flex-grow: 1;
+    font-size: small;
+}
+
+.ms_input_text input{
+    width: 100%;
+    padding: 10px 20px;
+}
+.magnifying_glass{
+    position: absolute;
+    top: 20px;
+    transform: translateY(150%);
+    padding: 0 5px;
+}
