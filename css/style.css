@@ -23,6 +23,13 @@ ul, ol, menu{
     flex-direction: column;
     align-items: center;
 }
+.flex{
+    display: flex;
+}
+
+.aling_items_baseline{
+    align-items: baseline;
+}
 /* END MINE UTILITIES */
 /* HEADER */
 .page_header{
@@ -65,6 +72,7 @@ ul, ol, menu{
 
 
 /* MIAN */
+/* ASIDE */
 .page_main{
     height: 100%;
 }
@@ -80,4 +88,28 @@ ul, ol, menu{
 .admin{
     margin-top: auto;
 }
+/* END ASIDE */
+/* SECTION */
+.bg-1B72E8{
+    background-color: #1B72E8;
+}
+.plane_blaze,
+.info_blaze{
+    width: 100%;
+}
+
+@media (min-width:768px){
+    .plane_blaze{
+        display: flex;
+    }
+    .order{
+        order: -1;
+        flex-grow: 1;
+    }
+    .add_student{
+        order: 2;
+        padding: 0 20px;
+    }
+}
+/* END SECTION */
 /* END MAIN */
