@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul, ol, menu{
+    list-style: none;
+}
