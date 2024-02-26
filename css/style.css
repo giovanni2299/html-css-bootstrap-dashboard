@@ -17,6 +17,13 @@ ul, ol, menu{
     height: 100vh;
 }
 /* END LAYOUT */
+/* MINE UTILITIES */
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* END MINE UTILITIES */
 /* HEADER */
 .page_header{
     background-color: #F8F9FA;
