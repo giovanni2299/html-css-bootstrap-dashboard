@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <div id="app">
+    <div class="d-flex flex-column align-items-stretch" id="app">
         <header class="page_header">
             <div class="bg-FFFFFF row align-items-center g-0 py-1">
                 <div class="col-auto px-2">
@@ -33,16 +33,26 @@
             </div>
         </header>
 
-        <main class="page_main">
+        <main class="flex-grow-1 container-fluid d-flex">
             <div class="row row_heigt">
-                <aside class="bg-051E34 text-white flex-column col-auto">
+                <aside class="bg-051E34 text-white flex-column col-auto px-5">
                     <ul class="p-0">
-                        <li>home</li>
-                        <li>stats</li>
-                        <li>signals</li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <span class="d-none d-lg-inline ms-1">home</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <span class="d-none d-lg-inline ms-1">stats</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-signal"></i>
+                            <span class="d-none d-lg-inline ms-1">signals</span>
+                        </li>
                     </ul>
                     <div class="admin">
-                        admin
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="d-none d-lg-inline ms-1">admin</span>
                     </div>
                 </aside>
                 <!-- <section class="col-auto">
