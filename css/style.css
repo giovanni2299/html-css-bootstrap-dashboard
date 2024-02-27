@@ -62,3 +62,29 @@ ul, ol, menu{
     flex-grow: 1;
     border: 1px solid black;
 }
+
+.top_content{
+    background-color: #1B72E8;
+}
+@media(min-width:576px){
+    .students_online{
+        margin-top: 20px;
+    }
+}
+
+@media(min-width:768px){
+    .top_content{
+        display: flex;
+    }
+    .info_blaze{
+        padding: 0 10px;
+        flex-grow: 1;
+    }
+    .students_online{
+        padding: 0 10px;
+    }
+    .add_student{
+        padding: 0 10px;
+        order: 2;
+    }
+}
