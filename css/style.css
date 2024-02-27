@@ -87,4 +87,7 @@ ul, ol, menu{
         padding: 0 10px;
         order: 2;
     }
+    .body_content{
+        display: flex;
+    }
 }
