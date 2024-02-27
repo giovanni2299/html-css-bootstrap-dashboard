@@ -27,35 +27,47 @@
             </div>
             <ul class="d-flex gap-2">
                 <li class="d-none d-lg-block">
-                    <i class="fa-solid fa-magnifying-glass magnifying_glass"></i>
+                    <i class="fa-solid fa-list-ul"></i>
                 </li>
                 <li class="d-none d-lg-block">
-                    <i class="fa-solid fa-magnifying-glass magnifying_glass"></i>
+                    <i class="fa-solid fa-circle-question"></i>
                 </li>
                 <li class="d-none d-lg-block">
-                    <i class="fa-solid fa-magnifying-glass magnifying_glass"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
                 </li>
-                <li>
-                    <i class="fa-solid fa-magnifying-glass magnifying_glass"></i>
+                <li class="bell">
+                    <i class="fa-solid fa-bell"></i>
                 </li>
             </ul>
         </div>
     </header>
-    <main class="page_main d-flex flex-grow-1">
-        <aside class="sidebar d-flex flex-column">
+    <main class="page_main d-flex flex-grow-1 ">
+        <aside class="sidebar d-flex flex-column text-white text-center">
             <ul class="">
-                <li>
-                    home
+                <li class="d-flex align-items-center gap-1">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="d-none d-lg-inline">
+                        home
+                    </span>
                 </li>
-                <li>
-                    stats
+                <li class="d-flex align-items-center gap-1 mb-2 mt-2">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span class="d-none d-lg-inline">
+                        stats
+                    </span>
                 </li>
-                <li>
-                    signals
+                <li class="d-flex align-items-center gap-1">
+                    <i class="fa-solid fa-signal"></i>
+                    <span class="d-none d-lg-inline">
+                        signals
+                    </span>
                 </li>
             </ul>
-            <div class="mt-auto">
-                admin
+            <div class="mt-auto d-flex align-items-center gap-1">
+                <i class="fa-solid fa-gear"></i>
+                <span class="d-none d-lg-inline">
+                    admin
+                </span>
             </div>
         </aside>
         <div class="content">
@@ -358,17 +370,33 @@
                         <ul class="list-group list-group-flush">
                           <li class="list-group-item">
                             <input type="checkbox">
-                            An item
+                            kickoff nuove classi
                         </li>
                           <li class="list-group-item">
                             <input type="checkbox">
-                            A second item
+                            Lezione su Bootstrap 5 in classe #75
                         </li>
                           <li class="list-group-item">
                             <input type="checkbox">
-                            A third item
+                            Controllare username github studenti
                         </li>
                         </ul>
+                    </div>
+
+                    <div class="card mt-3">
+                        <img src="./img/stats.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Utenti attivi</h5>
+                          <p class="card-text">Lista degli utenti attivi nel ultimo mese</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Gennaio: 1200</li>
+                          <li class="list-group-item">Febbraio: 800</li>
+                          <li class="list-group-item">Marzo: 1500</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Visualizza report approfondito</a>
+                        </div>
                       </div>
                 </div>
                 

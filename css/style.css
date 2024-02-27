@@ -18,6 +18,10 @@ ul, ol, menu{
     width: 50px;
 }
 
+.bell{
+    color: orange;
+}
+
 .page_header ul,
 .sidebar ul
 {
@@ -53,7 +57,9 @@ ul, ol, menu{
 
 .sidebar{
     width: 70px;
-    border: 1px solid black;
+    background-color: #051E34;
+    flex-shrink: 0;
+    align-items: center;
 }
 
 .content{
@@ -108,5 +114,12 @@ ul, ol, menu{
     .body_content{
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+@media (min-width:992px){
+    .col-lg-8,
+    .col-lg-4{
+        padding: 0 10px;
     }
 }
