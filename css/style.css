@@ -64,6 +64,14 @@ ul, ol, menu{
     align-items: center;
 }
 
+.hover_effect{
+    cursor: pointer;
+}
+
+.hover_effect:hover{
+    background-color: rgba(211, 209, 209, 0.488);
+}
+
 .content{
     flex-grow: 1;
     border: 1px solid black;
