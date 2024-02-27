@@ -47,7 +47,8 @@ ul, ol, menu{
 /* END HEADER */
 
 .page_main{
-    height: 100%;
+    /* height: 100%; */
+    height: calc(100% - 70px);
 }
 
 .sidebar{
@@ -58,6 +59,7 @@ ul, ol, menu{
 .content{
     flex-grow: 1;
     border: 1px solid black;
+    overflow: auto;
 }
 
 .top_content{
@@ -81,15 +83,16 @@ ul, ol, menu{
     border-radius: 5px;
 }
 
-@media(min-width:576px){
+/* @media(min-width:576px){
     .students_online{
         margin-top: 20px;
     }
-}
+} */
 
 @media(min-width:768px){
     .top_content{
         display: flex;
+        flex-wrap: wrap;
     }
     .info_blaze{
         padding: 0 10px;
@@ -104,5 +107,6 @@ ul, ol, menu{
     }
     .body_content{
         display: flex;
+        flex-wrap: wrap;
     }
 }
