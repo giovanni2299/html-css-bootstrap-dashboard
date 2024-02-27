@@ -21,7 +21,9 @@ ul, ol, menu{
     width: 50px;
 }
 
-.page_header ul{
+.page_header ul,
+.sidebar ul
+{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -51,7 +53,7 @@ ul, ol, menu{
     height: 100%;
 }
 
-.aside{
+.sidebar{
     width: 70px;
     border: 1px solid black;
 }
