@@ -13,8 +13,33 @@
 </head>
 <body>
    <div id="app">
-    <header class="page_header">
-        header
+    <header class="page_header d-flex">
+        <div class="d-flex align-items-center w-100 gap-3 px-2">
+            <a class="logo" href="#">
+                <img class="logo_mobile d-lg-none" src="./img/mobile-logo.png" alt="">
+                <img class="d-none d-lg-block" src="./img/logo.svg" alt="">
+            </a>
+            <div class="serch_bar flex-grow-1">
+                <span class="serch_bar_icon">
+                    <i class="fa-solid fa-magnifying-glass magnifying_glass"></i>
+                </span>
+                <input type="text" name="search" class="serch_bar_input" placeholder="Prova a cercare: lezioni di Laravel">
+            </div>
+            <ul class="d-flex gap-2">
+                <li class="d-none d-lg-block">
+                    <i class="fa-solid fa-magnifying-glass magnifying_glass"></i>
+                </li>
+                <li class="d-none d-lg-block">
+                    <i class="fa-solid fa-magnifying-glass magnifying_glass"></i>
+                </li>
+                <li class="d-none d-lg-block">
+                    <i class="fa-solid fa-magnifying-glass magnifying_glass"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-magnifying-glass magnifying_glass"></i>
+                </li>
+            </ul>
+        </div>
     </header>
     <main class="page_main d-flex flex-grow-1">
         <aside class="aside">

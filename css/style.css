@@ -17,6 +17,35 @@ ul, ol, menu{
     height: 70px;
     border: 1px solid black;
 }
+.logo_mobile{
+    width: 50px;
+}
+
+.page_header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.serch_bar{
+    position: relative;
+}
+
+.serch_bar_input{
+    width: 100%;
+    border: none;
+	padding-left: 30px;
+    height: 42px;
+	background-color: #e5e5e5;
+	border-radius: 10px;
+}
+.serch_bar_icon{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+/* END HEADER */
 
 .page_main{
     height: 100%;
