@@ -20,6 +20,8 @@ ul, ol, menu{
 
 .bell{
     color: orange;
+    border: none;
+    background-color: white;
 }
 
 .page_header ul,
@@ -72,6 +74,38 @@ ul, ol, menu{
     background-color: #1B72E8;
 }
 
+.students_online{
+    padding: 10px;
+}
+
+.info_blaze{
+    padding: 10px;
+}
+
+.add_student{
+    padding: 10px;
+}
+
+.button_squere{
+    background-color: #1B72E8;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.circle{
+    border: 1px solid #165BBA;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #165BBA;
+}
+
+.special_padding{
+    padding: 0 5px;
+}
+
 .body_content{
     padding: 10px;
 }
@@ -89,6 +123,10 @@ ul, ol, menu{
     border-radius: 5px;
 }
 
+#offcanvasRight{
+    width: 100%;
+}
+
 /* @media(min-width:576px){
     .students_online{
         margin-top: 20px;
@@ -101,23 +139,31 @@ ul, ol, menu{
         flex-wrap: wrap;
     }
     .info_blaze{
-        padding: 0 10px;
-        flex-grow: 1;
+        padding:  10px;
+        flex-grow: 2;
     }
     .students_online{
-        padding: 0 10px;
+        padding: 10px;
+        flex-grow: 1;
     }
     .add_student{
-        padding: 0 10px;
+        padding: 10px;
         order: 2;
+        
     }
     .body_content{
         display: flex;
         flex-wrap: wrap;
     }
+    #offcanvasRight{
+        width: 50%;
+    }
 }
 
 @media (min-width:992px){
+    .sidebar{
+        padding: 0 60px;
+    }
     .col-lg-8,
     .col-lg-4{
         padding: 0 10px;
