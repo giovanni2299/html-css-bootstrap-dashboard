@@ -24,6 +24,10 @@ ul, ol, menu{
     background-color: white;
 }
 
+.page_header ul>li{
+    cursor: pointer;
+}
+
 .page_header ul,
 .sidebar ul
 {
